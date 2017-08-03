@@ -8,7 +8,7 @@
 
 ## Notes
 1. nodejs __has__ to support the nodejs LTS. At the time of writing this tutorial, it is 6.11.1
-2. Installing `allex` globally will bring you the essential commands:
+2. Installing `allex` globally will bring you the essential commands: `allexlanmanager`, `allexmaster`, `allexrun`, `allexruntask`, `allexenterandruntask`, and several less significant commands. We shall deal with each of them in later tutorials.
 3. Install `allexsdk` globally will bring you a family of software development commands that we shall deal with in later tutorials.
 4. Install `allextesting` globally will bring you extensions to the `mocha` JavaScript testing framework, which will be covered in detail in later tutorials.
 5. Tutorial [Module naming](../development_basics/module_recognition.md) will show you what `.allexns.json` file is for, and much more on the module naming convention.
