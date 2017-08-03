@@ -159,3 +159,27 @@ When repogroups (and repositories within these repogroups) are being created, th
 In the case of a "plain" git server (U*ix-like server with `git` installed), plain-password-based ssh access should be disabled.
 In any of the above cases, the repositories will be accessible only if the appropriate ssh key is [deployed](ssh_key_deployment.md) on the machine.
 
+### What does module recognition do with the git type?
+
+The modulename is first checked for AllexJS compatibility: the presence of underscores `_` is checked and the modulename is broken into appropriate 3 or 4 parts `username` `groupsingular`, `modulename` and (optionally) `namespace`.
+
+Once the parts are known, an entry in the `.allexns.json` file is being searched for that will have the appropriate username, group, and (optionally, in the 4-part case) namespace.
+
+Then the `user`, `server` and `repogroup` are read from the .allexns.json entry and a git url is produced in the form of git+ssh://user@server:repogroup/modulename.git
+
+Then the module is installed as
+`npm install git+ssh://user@server:repogroup/modulename.git`
+
+# Location of .allexns.json
+
+`.allexns.json` should be located in the directory where it is needed (the working directory) or in any parent directory up the filesystem.
+This means that `.allexns.json` may be located in
+
+- the working directory
+- parent directory of the working directory
+- parent directory of the parent directory of the working directory
+- ...
+- the filesystem root
+
+The first `.allexns.json` file found in the filesystem path explained above will be used.
+
