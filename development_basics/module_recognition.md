@@ -140,16 +140,17 @@ This group will then be represented by a corresponding entry in the `.allexns.js
 
 Example:
 
-Git server address: git.supercompany.org
-Name of the repogroup: bestprojectservices
-Type of the git server: gitlab - which means that the git user that accesses the git server is `git`
+- Git server address: git.supercompany.org
+- Name of the repogroup: bestprojectservices
+- Type of the git server: gitlab - which means that the git user that accesses the git server is `git`
 
-AllexJS username "superdev"
-Namespace "bestproject"
-Group "services"
+- AllexJS username: "superdev"
+- Namespace: "bestproject"
+- Group: "services"
 
 Finally, the `.allexns.json` entry for the above parameters is
-{"username": "superdev", "namespace": "bestproject", "group": "services", "type": "git", "user": "git", "server": "git.supercompany.com", "repogroup": "bestprojectservices"}
+
+`{"username": "superdev", "namespace": "bestproject", "group": "services", "type": "git", "user": "git", "server": "git.supercompany.com", "repogroup": "bestprojectservices"}`
 
 ### How does privacy work for private modules?
 
