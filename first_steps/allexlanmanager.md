@@ -257,7 +257,7 @@ Fri Aug 04 2017 14:11:31 GMT+0200 (CEST) DEBUG lanmanager 9608 registering super
 Note that now there are no module installation notifications.
 The pid of the `lanmanager` process is (naturally) different.
 
-#How does LanManager do its job?
+# How does LanManager do its job?
 
 ## Start listening on 2 ports for 2 distinct protocols
 
