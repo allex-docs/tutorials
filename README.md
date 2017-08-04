@@ -5,4 +5,5 @@ For any other operating system, please provide us with feedback on any problems 
 
 ## First steps
 [Setup your environment](first_steps/setup.md)
-
+[Start the allexlanmanager](first_steps/allexlanmanager.md)
+[Start the allexmaster](first_steps/allexmaster.md)
