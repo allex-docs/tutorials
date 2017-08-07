@@ -3,7 +3,7 @@
 1. Make sure you have followed the steps described in [Setup your environment](../first_steps/setup.md) (You have `allex`, `allexsdk` and `allextesting` installed, and `.allexns.json` deployed in your user's root directory)
 2. Make a directory where you will start the allexlanmanager. Name it whatever you want, but make sure it is a fresh and empty directory.
 3. Start your terminal program.
-4. Enter the directory that you created in step 1.
+4. Enter the directory that you created in step 2.
 5. Run the command `allexlanmanager`
 
 ## If you never ran any AllexJS command before
