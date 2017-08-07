@@ -27,7 +27,7 @@ Fri Aug 04 2017 12:58:44 GMT+0200 (CEST) DEBUG lanmanager correcting { protocol:
 Fri Aug 04 2017 12:58:44 GMT+0200 (CEST) DEBUG lanmanager correcting { protocol: { name: 'socket' }, port: 23551 } by 0
 Fri Aug 04 2017 12:58:44 GMT+0200 (CEST) DEBUG lanmanager ipstrategies [ { ip: '127.0.0.1/32', role: 'user' },
   { ip: '192.168.1.0/8', role: 'user' } ]
-Fri Aug 04 2017 12:58:44 GMT+0200 (CEST) DEBUG lanmanager running in /Users/andra/trash/bla1
+Fri Aug 04 2017 12:58:44 GMT+0200 (CEST) DEBUG lanmanager running in /home/developer/test/allexlanmanager
 Fri Aug 04 2017 12:58:48 GMT+0200 (CEST) DEBUG lanmanager 8641 npm installed the missing module allex_remoteserviceneedingservice
 Fri Aug 04 2017 12:58:51 GMT+0200 (CEST) DEBUG lanmanager 8641 npm installed the missing module allex_availablelanservicesservice
 Fri Aug 04 2017 12:58:54 GMT+0200 (CEST) DEBUG lanmanager 8641 npm installed the missing module allex_engagedmodulesservice
