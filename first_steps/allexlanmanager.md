@@ -304,7 +304,7 @@ This file (and extensions/alterations to its contents) will be thoroughly discus
 
 For now, let's take a look at the default need put there during the initial run:
 
-```
+```json
 {
   "modulename": "allex_timeservice",
   "instancename": "Time",
@@ -330,7 +330,7 @@ So, the LanManager does its job by
 4. `nat`ting the [internal address:port] pairs to [extenal address:port] pairs
 
 
-# Who will fulfill the needs?
+# What's next?
 
-[allexmaster](allexmaster.md) process is the workhorse of the AllexJS framework.
+Start [allexmaster](allexmaster.md). It is the workhorse of the AllexJS framework.
 

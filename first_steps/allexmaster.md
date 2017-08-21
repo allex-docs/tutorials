@@ -307,3 +307,8 @@ Mon Aug 07 2017 14:18:16 GMT+0200 (CEST) INFO lanmanager need Time (allex_timese
 - The AllexJS architecture allows for a robust operation of the software dispersed in the cloud.
 - The functionality of the AllexJS cloud is obtained on a _service process_ basis. Each AllexJS process implements one microservice (although the term _network protocol-based component_ might be more appropriate, see [here](https://apigee.com/about/blog/technology/microservices-bad-name-good-idea))
 - The AllexJS cloud is built on a premise that microservices may occasionally go down. This makes it robust and flexible in terms of run-time functionality maintenance.
+
+# What's next?
+
+- [Start `allexmaster` from another machine in the LAN](allexmasterlan.md).
+- [Consume the Time service](consumetime.md)
