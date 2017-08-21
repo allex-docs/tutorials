@@ -83,7 +83,7 @@ As you may have noticed, the invocation of `allexruntask setTimeActive` has neve
 However, this script has no idea about the fate of the call it issued.
 This is because it did not use the result of the `call` method.
 
-So, use <Ctrl>-C to abort the execution of `allexruntask setTimeActive`, and make some use of the result of the `call` method.
+So, use `<Ctrl>-C` to abort the execution of `allexruntask setTimeActive`, and make some use of the result of the `call` method.
 
 
 ## The call method returns a promise
