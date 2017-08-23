@@ -11,8 +11,9 @@
 # Video tutorials
 
 ## How to install NodeJS on Ubuntu 16.04
-[![How to install NodeJS](http://i.imgur.com/iqBm7lv.png)](https://www.youtube.com/watch?v=JU4Pz6K7SXE&index=1&list=PLfGlwylOJN8kIncBjXVofXySs053PiWz9)
+[![How to install NodeJS](http://i.imgur.com/8f5Wagk.png)](https://www.youtube.com/watch?v=YwWp0lDAUL0&list=PLL4oKtMozSzVYFCSU-9Qv3UAMy528re2k)
 ## How to setup Allex
+[![How to install NodeJS](http://i.imgur.com/2yznvKF.png)](https://www.youtube.com/watch?v=UOnGf5O1J04&list=PLL4oKtMozSzVYFCSU-9Qv3UAMy528re2k&index=2)
 
 ## Notes
 1. AllexJS __has__ to support the nodejs LTS. At the time of writing this tutorial, it is 6.11.1
