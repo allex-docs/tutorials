@@ -11,8 +11,7 @@
 # Video tutorials
 
 ## How to install NodeJS
-![How to install NodeJS](http://i.imgur.com/iqBm7lv.png)
-
+[![How to install NodeJS](http://i.imgur.com/iqBm7lv.png)](https://www.youtube.com/watch?v=JU4Pz6K7SXE&index=1&list=PLfGlwylOJN8kIncBjXVofXySs053PiWz9)
 ## How to setup Allex
 
 ## Notes
