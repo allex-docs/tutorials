@@ -1,4 +1,4 @@
-# read time from the Service on the client side
+# Read time from the Service on the client side
 
 Make sure you went through the [Consume the Time service](consumetime.md) tutorial and that you are in the `userspace` directory.
 
@@ -307,5 +307,16 @@ All subsequent lines have 3 elements:
 2. The newly acquired value of the `time` property of the remote `Time` service.
 3. The previous value of the `time` property of the remote `Time` service. Note the `undefined` in the first report line. Initially, the previous value of the `time` property was `undefined`.
 
+# Wrapping it all up
 
+AllexJS Tasks cover the job of listening to Service's `state`.
+
+1. `materializeState` instructs the AllexJS infrastructure to build a local `state` on the Client side as the terminator of the `state` stream coming from the Service.
+2. `readState` installs the listeners on the `state` on the Client side so that the callback will be invoked whenever the corresponding `state` property is changed.
+3. The callback will be called with 2 parameters: the new value of the property of the `state` and the old value of the property of the `state`, in this exact order. 
+
+# Where to go next
+
+1. If you're interested in how `state` works on the "server side", take a look at [Managing the state of a Service](timeservicestatehandling.md)
+2. If you're interested in calling the Service (invoking the Remote Methods on the Service), take a look at [RMI on the Time Service](calltimeservice.md)
 
