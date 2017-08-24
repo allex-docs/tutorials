@@ -8,6 +8,13 @@
 6. Install `allextesting` globally: `npm install -g allextesting`
 7. Initiate the base .allexns.json namespace file: `wget -O ~/.allexns.json https://gist.githubusercontent.com/andrija-hers/f80b7dd09558efbc1a59b5f445e47fbf/raw`
 
+# Video tutorials
+
+## How to install NodeJS on Ubuntu 16.04
+[![How to install NodeJS](http://i.imgur.com/8f5Wagk.png)](https://www.youtube.com/watch?v=YwWp0lDAUL0&list=PLL4oKtMozSzVYFCSU-9Qv3UAMy528re2k)
+## How to setup Allex
+[![How to install NodeJS](http://i.imgur.com/2yznvKF.png)](https://www.youtube.com/watch?v=UOnGf5O1J04&list=PLL4oKtMozSzVYFCSU-9Qv3UAMy528re2k&index=2)
+
 ## Notes
 1. AllexJS __has__ to support the nodejs LTS. At the time of writing this tutorial, it is 6.11.1
 2. Because you are in the "development mode" (as opposed to "deployment mode", that will be discussed in a separate tutorial), you should be capable of running `npm install -g` without `sudo` privileges. Setting the default `npm` directory (the term is `prefix`) to your user's root directory (aliases are `~` or `$HOME`) means that all the globally installed modules will appear in the `~/lib/node_modules` directory, and all the binary executables will appear in the `~/bin` directory.
