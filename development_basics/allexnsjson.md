@@ -1,6 +1,6 @@
 # .allexns.json
 
-In order to obtain the needed functionality, AllexJS runtime loads the modules and instantiates them according to their type (`service`, `lib`, `parser` or `storage`).
+In order to obtain the needed functionality, AllexJS runtime loads the modules and instantiates them according to their group (`service`, `lib`, `parser` or `storage`).
 
 Therefore, AllexJS runtime needs to know for each module name how to fetch the appropriate module and how to treat it.
 
