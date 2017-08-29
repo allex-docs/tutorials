@@ -25,7 +25,7 @@ Each object has to have the following properties:
 | ----------   | -----------      |
 | username     | AllexJS username |
 | namespace    | namespace part of the module name. In the 3-part module name case, the value is `null`, just like in the example given above. |
-| group        | name of the group that defines the groupsingular of the module name |
+| group        | name of the group that will produce the groupsingular of the module name |
 | type         | may be `npm` or `git`. `npm` is for modules that should be fetched via `npm install modulename`. `git` is for modules that should be fetched via `npm install git+ssh://giturl.git` |
 | user         | if the type is `git`, this is the username that will access the git server |
 | server       | if the type is `git`, this is the git server url |
