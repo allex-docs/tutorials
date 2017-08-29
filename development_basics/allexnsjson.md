@@ -59,7 +59,7 @@ The modulename is first checked for AllexJS compatibility: the presence of under
 
 Once the parts are known, an entry in the `.allexns.json` file is being searched for that will have the appropriate `username`, `group` (`groupsingular`+"s"), and (optionally, in the 4-part case) `namespace`.
 
-Then the `user`, `server` and `repogroup` are read from the .allexns.json entry and a npm modulename is produced in the form of
+Then the `type` is read from the .allexns.json entry, it is found to be `npm`, and a npm modulename is produced in the form of
 
 `<username>_<modulename><groupsingular>` in the case of no namespace,
 
