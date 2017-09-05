@@ -256,7 +256,7 @@ So, after a simple check, let's use the sink
 
 ## use the taskRegistry to materialize the state of the Sink and start listening on the state
 
-Now we shall modify the `main` function:
+Now we shall modify the `main` function in order to listen for the [State](../development_basics/state.md):
 
 ```javascript
 function main (taskobj) {

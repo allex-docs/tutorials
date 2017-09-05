@@ -2,9 +2,14 @@
 
 ## What is the state?
 
-The `state` is a property of any Service instance (introduced by the base Service class).
+AllexJS Service state is an implementation of the [Gang of Four Observer pattern](http://www.blackwasp.co.uk/Observer.aspx).
 
-It is an instance of the `Collection` class.
+![observer pattern](http://i.imgur.com/meQkfvh.png)
+
+In the state implementation, Subject is the `state` property of every Service instance (introduced by the base Service class),
+and ObserverA, ObserverB, ObserverC are Sinks.
+
+`state` is an instance of the `Collection` class.
 The `Collection` class is a specialization of the `Map` class.
 Therefore, the basic task of `state` is to maintain a _name_ => _value_ mapping.
 
