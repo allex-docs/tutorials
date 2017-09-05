@@ -38,9 +38,6 @@ In this tutorial, we will immediately write some useful code in the `main` funct
 
 ```javascript
 function main (taskobj) {
-  /* prepare the vars in advance (good ol' ES5) */
-  var state, taskRegistry;
-
   /* do the sanity checks and exit accordingly */
   if (!(taskobj && taskobj.sink)) {
     process.exit(0);
@@ -93,9 +90,6 @@ Since the `call` method, returns a Promise, we'll be using `then` to control its
 
 ```javascript
 function main (taskobj) {
-  /* prepare the vars in advance (good ol' ES5) */
-  var state, taskRegistry;
-
   /* do the sanity checks and exit accordingly */
   if (!(taskobj && taskobj.sink)) {
     process.exit(0);
@@ -142,9 +136,6 @@ Instead of having the `call` method call the `setActive` Remote Method, let's tr
 
 ```javascript
 function main (taskobj) {
-  /* prepare the vars in advance (good ol' ES5) */
-  var state, taskRegistry;
-
   /* do the sanity checks and exit accordingly */
   if (!(taskobj && taskobj.sink)) {
     process.exit(0);
@@ -215,9 +206,6 @@ Now, let's try to invoke the existing `setActive` method, but with a parameter t
 
 ```javascript
 function main (taskobj) {
-  /* prepare the vars in advance (good ol' ES5) */
-  var state, taskRegistry;
-
   /* do the sanity checks and exit accordingly */
   if (!(taskobj && taskobj.sink)) {
     process.exit(0);
