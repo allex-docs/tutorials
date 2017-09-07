@@ -98,7 +98,7 @@ So, the whole "magic" of managing the state is in the `set` method of the `Colle
 this.state.set('active', true);
 ```
 
-This particular line of code sets the `active` property of the `state` to `true`. If a Client were interested in this property, it would `materializeState` and then `listenState` for the `active` property.
+This particular line of code sets the `active` property of the `state` to `true`. If a Client were interested in this property, it would `materializeState` and then `readState` for the `active` property.
 
 However, the `tick` method implements setting the `time` property of the `state`:
 
