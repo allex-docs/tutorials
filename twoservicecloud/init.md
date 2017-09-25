@@ -8,6 +8,7 @@ We'll just list the steps needed here:
 In our case the repo group is a github Organization available at [https://github.com/allex-twoservicecloud-tutorial](https://github.com/allex-twoservicecloud-tutorial). It will contain just 2 repositories:
 - the Project repository
 - the Multiplier repository
+
 #### 2. Create the `twoservicemultiplierproject` repository in your repo group.
 
 In our case it is available at [https://github.com/allex-twoservicecloud-tutorial/twoservicemultiplierproject](https://github.com/allex-twoservicecloud-tutorial/twoservicemultiplierproject).
@@ -29,7 +30,8 @@ Now you have all the initial files of the project.
 #### 5. Edit the `.allexlanmanager/needs` file.
 
 In our case it looks like this:
-```
+```json
+[
   {
     "modulename": "allex_leveldbconfigservice",
     "instancename": "Config",
@@ -104,6 +106,4 @@ Now you will have the initial 2-service cloud up and running, but doing nothing.
 
 ## What's next?
 
-1. [Develop the Multiplier Service](multiplier.md)
-2. [Set the `multiplier` configuration parameter](set_multiplier.md)
-3. [Consume the `Multiplier` service](consume_multiplier.md)
+The time is right to [Develop the Service](develop_service.md)
