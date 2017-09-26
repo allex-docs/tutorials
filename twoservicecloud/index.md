@@ -3,7 +3,7 @@
 In this lesson, we will develop an AllexJS cloud that will run 2 services:
 
 1. A Config service that will hold the configuration for the Cloud. The only configuration parameter will be the `multiplier` parameter. This service will be an instance of the `allex_leveldbconfigservice` Service that is available as a part of the public AllexJS core.
-2. A Multiplier service that will multiply given numbers by the `multiplier` set in the Config service. This service will listen to the Config service, for the `multiplier` configuration parameter in particular. Special care will be taken for the _boundary cases_, when the Multiplier service might not be in posession of the `multiplier` configuration parameter value.
+2. A Multiplier service that will multiply given numbers by the `multiplier` set in the Config service. This service will listen to the Config service, for the `multiplier` configuration parameter in particular. Special care will be taken for the _boundary cases_, when the Multiplier service might not be in possession of the `multiplier` configuration parameter value.
 
 The structure of the cloud is
 
