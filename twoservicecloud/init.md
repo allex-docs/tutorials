@@ -84,7 +84,7 @@ You should end up with a Service module directory named
 
 Enter the `[your username]__twoservicecloud_multiplierservice` and scaffold a plain service:
 ```
-allex-service-createrepo -a [your username] -r service -r user -n TwoServiceCloud -p Multiplier
+allex-service-createrepo -a [your author name] -u [your username] -r service -r user -n TwoServiceCloud -p Multiplier
 ```
 In our case it is
 ```
