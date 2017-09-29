@@ -44,8 +44,7 @@ In our case it looks like this:
     "modulename": "allex__twoservicecloud_multiplierservice",
     "instancename": "Multiplier",
     "propertyhash": {
-      "path": "config.db",
-      "fields": ["multiplier"]
+      "configsinkname": "Config"
     }
   }
 ]
