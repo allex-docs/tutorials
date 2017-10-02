@@ -42,7 +42,7 @@ function doMultiply (sink) {
   var rn;
   if (!sink.destroyed) {
     console.error('sink is destroyed, ending the process');
-    process.end(1);
+    process.exit(1);
     return;
   }
   rn = randomNumber();
