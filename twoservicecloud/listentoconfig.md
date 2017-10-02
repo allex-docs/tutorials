@@ -164,6 +164,7 @@ Hence, we update the constructor code:
   function MultiplierService(prophash) {
     ParentService.call(this, prophash);
     RemoteServiceListenerServiceMixin.call(this);
+    this.findRemote(prophash.configsinkname, null, 'Config');
     this.state.data.listenFor('Config', this.onConfig.bind(this), true);
   }
 ```
