@@ -52,6 +52,7 @@ multiply succeeded for number 5 yielding 0
 will retry the multiplication in 1 seconds
   ```
   You can see that the service returns 0 as a result of the multiplication when `mutliplier` is not available.
+  
 6. Run `allexruntask setMultiplier` in the `userspace` subdirectory of the project directory.
   ```
 $ allexruntask setMultiplier
@@ -76,6 +77,7 @@ multiply succeeded for number 9 yielding 45
 will retry the multiplication in 1 seconds
   ```
   Now the provided random numbers are multiplied by 5.
+  
 8. Run `allexruntask removeMultiplier` in the `userspace` subdirectory of the project directory.
   ```
 $ allexruntask removeMultiplier
@@ -123,6 +125,7 @@ multiply failed for number 5 because { code: 'NO_MULTIPLIER',
 will retry the multiplication in 1 seconds
   ```
   You can see that the service rejects as a result of the multiplication when `mutliplier` is not available.
+  
 6. Run `allexruntask setMultiplier` in the `userspace` subdirectory of the project directory.
   ```
 $ allexruntask setMultiplier
@@ -143,6 +146,7 @@ multiply succeeded for number 1 yielding 5
 will retry the multiplication in 1 seconds
   ```
   Now the provided random numbers are multiplied by 5.
+  
 8. Run `allexruntask removeMultiplier` in the `userspace` subdirectory of the project directory.
   ```
 $ allexruntask removeMultiplier
@@ -181,6 +185,7 @@ parseProgram 14719
 
   ```
   You can see that the service waits for the `mutliplier` to become available.
+  
 6. Run `allexruntask setMultiplier` in the `userspace` subdirectory of the project directory.
   ```
 $ allexruntask setMultiplier
@@ -203,6 +208,7 @@ multiply succeeded for number 9 yielding 45
 will retry the multiplication in 1 seconds
   ```
   Now the provided random numbers are multiplied by 5.
+  
 8. Run `allexruntask removeMultiplier` in the `userspace` subdirectory of the project directory.
   ```
 $ allexruntask removeMultiplier
