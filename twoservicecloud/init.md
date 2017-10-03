@@ -79,7 +79,20 @@ You should end up with a Service module directory named
 [your username]__twoservicecloud_multiplierservice
 ```
 
-#### 10. Scaffold the Service
+### 10. Symlink the `allex__twoservicecloud_multiplierservice` into `node_modules`
+
+You are in the `~/lib/allexjs_modules_dev` now, so
+
+```
+cd ../node_modules
+ln -s ../allexjs_modules_dev/allex__twoservicecloud_multiplierservice
+cd -
+```
+
+In our case, username is `allex` (in `allex__twoservicecloud_multiplierservice`).
+
+
+#### 11. Scaffold the Service
 
 Enter the `[your username]__twoservicecloud_multiplierservice` and scaffold a plain service:
 ```
@@ -90,7 +103,7 @@ In our case it is
 allex-service-createrepo -a allex -r service -r user -n TwoServiceCloud -p Multiplier
 ```
 
-#### 11. Restart the Cloud 
+#### 12. Restart the Cloud 
 
 In the `twoservicemultiplierproject` project directory, run `allexlanmanager` and `allexmaster` simultaneously (in two separate terminals).
 Now you will have the initial 2-service cloud up and running, but doing nothing.
