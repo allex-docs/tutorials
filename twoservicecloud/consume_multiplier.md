@@ -6,10 +6,7 @@ After the standard steps
 1. Acquire a Sink to the `Multiplier` service
 2. Perform sanity checks on the `taskobj`
 
-We will enter a loop that will last until
-
-- The sink to `Multiplier` exists
-- The call to the `multiply` method resolves
+We will enter a loop that will last until the sink to `Multiplier` exists.
 
 The loop will call `multiply` on the sink acquired, sending a random number in the `[1, 10]` range.
 We will intentionally avoid sending a `0` value to be multiplied.
