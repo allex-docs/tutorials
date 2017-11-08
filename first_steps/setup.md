@@ -1,6 +1,6 @@
 # Setup your environment
 
-1. Install nodejs version 6.x, x >= 10. Major release number has to be 6, minor release number 10 or higher.
+1. Install nodejs version 8.x, x >= 10. Major release number has to be 8, minor release number 9 or higher.
 2. Set the `npm prefix` to your users's root directory: `npm config set prefix ~`
 3. Update your PATH directory so that it also contains the `$HOME/bin` path
 4. Install `allex` globally: `npm install -g allex`
