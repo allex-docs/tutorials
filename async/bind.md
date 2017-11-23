@@ -10,7 +10,7 @@ function multiply (num1, num2) {
 }
 ```
 
-As you can see, the `multiply` function takes two numbers, multiplies them and retuns the result of the multiplication.
+As you can see, the `multiply` function takes two numbers, multiplies them and returns the result of the multiplication.
 
 Now, how can we make a function that multiplies numbers by 2?
 
@@ -92,14 +92,14 @@ Finally, we come to the crucial question of this tutorial:
 
 `bind` lets you postpone execution of methods with given parameters on given instances.
 
-If I wanted the `m3` `Multiplier` instance to multiply number 7 somewhere in the future, I would construct a _bound_ function (let's name it `m37`)
+If we wanted the `m3` `Multiplier` instance to multiply number 7 somewhere in the future, we would construct a _bound_ function (let's name it `m37`)
 
 ```javascript
 var m37 = m3.multiply.bind(m3, 7);
 ```
 
-The `m37` variable would contain a function that I can call anytime later in the program's lifecycle.
-Whenever I call `m37`
+The `m37` variable would contain a function that we can call anytime later in the program's lifecycle.
+Whenever we call `m37`
 
 ```javascript
 m37(); //returns 21;
