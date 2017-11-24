@@ -92,25 +92,25 @@ Finally, we come to the crucial question of this tutorial:
 
 `bind` lets you postpone execution of methods with given parameters on given instances.
 
-If I wanted the `m3` `Multiplier` instance to multiply number 7 somewhere in the future, I would construct a _bound_ function (let's name it `m37`)
+If we wanted the `m3` `Multiplier` instance to multiply number 7 somewhere in the future, we would construct a _bound_ function (let's name it `m37`)
 
 ```javascript
 var m37 = m3.multiply.bind(m3, 7);
 ```
 
-The `m37` variable would contain a function that I can call anytime later in the program's lifecycle.
-Whenever I call `m37`
+The `m37` variable would contain a function that we can call anytime later in the program's lifecycle.
+Whenever we call `m37`
 
 ```javascript
 m37(); //returns 21;
 ```
 
-So, the big deal with the `this` is that the first argument you provide to `bind` will be the `this` parameter during the execution of the function `bind` returns.
+So, the big deal with the `this` is that the first argument you provide to `bind` will be the `this` parameter during the execution of the function that `bind` returns.
 
-If you take a look how we wrote the `multiply` function in [A Simple Example](a_simple_example), and how we wrote the `Multiplier.prototype.multiply` method in this situation, it is clear that the `multiply` function makes no use of the `this` parameter, but the `Multiplier.prototype.multiply` method makes use of the `this` parameter.
+If you take a look at how we wrote the `multiply` function in [A Simple Example](a_simple_example), and how we wrote the `Multiplier.prototype.multiply` method in this situation, it is clear that the `multiply` function makes no use of the `this` parameter, but the `Multiplier.prototype.multiply` method makes use of the `this` parameter.
 
 So, we _bound_ the `multiply` function by providing the `this` parameter of value `null`.
-On the other side, it makes no sense to `bind` a method of a class to a `null` `this` value. You have to provide a "live" instance as the `this` argument instead. In our case, we provided the `m3` value to be the `this` argument.
+On the other side, it makes no sense to `bind` a method of a class to a `null` value for `this`. You have to provide a "live" instance as the `this` argument instead. In our case, we provided the `m3` value to be the `this` argument.
 
 It might also be useful to note that instead of
 
@@ -133,3 +133,6 @@ Having all said here in mind, remember that every function you produce with `bin
 
 Also, for the sake of correctness, the first sentence of this tutorial needs improving: `bind` is actually not a function, but a _method_ of the Function class.
 Each and every function in JavaScript is actually an instance of the Function class, and has the `bind` method.
+
+## Where to go next
+Get acquainted with the basic concepts of [using the `q` library](q.md)
