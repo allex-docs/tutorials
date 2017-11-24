@@ -10,7 +10,7 @@ function multiply (num1, num2) {
 }
 ```
 
-As you can see, the `multiply` function takes two numbers, multiplies them and retuns the result of the multiplication.
+As you can see, the `multiply` function takes two numbers, multiplies them and returns the result of the multiplication.
 
 Now, how can we make a function that multiplies numbers by 2?
 
