@@ -38,7 +38,7 @@ var execSuite = execlib.execSuite,
 
 ```javascript
 //after the lines
-  function UserUsersService(prophash) {  
+  function MyService(prophash) {  
     ParentService.call(this, prophash);
 //add the line
     RemoteServiceListenerServiceMixin.call(this);
